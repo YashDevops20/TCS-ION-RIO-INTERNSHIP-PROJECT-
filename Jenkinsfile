@@ -7,7 +7,7 @@ pipeline {
    stages {
        stage('SCM CheckOut'){
           steps {
-            git 'https://github.com/Prashant-29/TCS_Project'
+            git 'https://github.com/YashDevops20/TCS-ION-RIO-INTERNSHIP-PROJECT-.git'
           }
           }
       stage('Compile-Package'){
